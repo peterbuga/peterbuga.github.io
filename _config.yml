@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -18,4 +18,4 @@ defaults:
 topics:
   - name: Python
     web_url: https://github.com/topics/python
-    image_url: https://github.com/github/explore/blob/master/topics/python/python.png
+    image_url: https://raw.githubusercontent.com/github/explore/master/topics/python/python.png
