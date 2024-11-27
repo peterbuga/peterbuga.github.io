@@ -1,122 +1,159 @@
-# Site
 repository: peterbuga/peterbuga.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/favicon.ico
 
-# Content configuration version
 version: 2
 
-# Personal info
 name: Petrișor Buga
-title: Senior Backend Developer
+title: Senior Software Engineer
 email: petrisor.buga@gmail.com
 email_title: Email
 phone: +40 723 375 885
-# phone_title: Phone (Phone title override)
-# website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+phone_title: Phone
+website: https://peterbuga.github.io
+website_title: CV
 
-# Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-# twitter_username: jekyllrb
 github_username:  peterbuga
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: D847cGsAAAAJ
 
-# Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: |
+  A general positive person, always up for new challenges. Looking forward for an exciting place to work with an engaged team that shares the same goals and vibe and brings new ideas to life.
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+content:
+  - title: Experience
+    layout: list
+    content:
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-# about_profile_image: Directory of profile image (eg. images/profile.jpg)
-# about_content: | # this will include new lines to allow paragraphs
-#   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+      - layout: left
+        title: QCatalyst (QC)
+        sub_title: Senior Software Developer / DevOps
+        caption: '[October 2021] – [present]<br><i class="fa fa-map-marker"></i> Bucharest / Cluj-Napoca'
+        link: https://www.qcatalyst.com
+        quote: >
+          External IT Services company
+        description: |
+          Continue the practices learned @Virail, developing & monitoring projects for NationalGeographic.org / FiscalNote.com using technologies like, mostly (audio/video streams recording, transcribe, identify+diarize speakers) pipelines & data ETL.
 
-#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-#     - Lists
-#     - Tables
-#     - <a href="google.com">Links</a>
-#     - Images ![alt text](/images/landscape-trees.jpg "Trees")
+          - DataDog / Kibana / SigNoz
+          - NodeJS (nextjs/nestjs/gasbtyjs/sanity.io)
+          - Python (Django / FastAPI / Flask)
+          - AWS devops w/ terraform
+          - PostgreSQL/MySQL/Redis(Valkey)
+          - SnowFlake
+          - Databricks
+          - Astronomer/Airflow
+          - Docker/K8s
 
-# content:
-#   - title: Projects # Title for the section
-#     layout: list # Type of content section (list/text)
-#     content:
-#       - layout: left
-#         border: weak  # Value of `weak` will display a weak border below this item. # Any
-#                       # other value (or no value) means no border will be displayed
-#         title: Project name
-#         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#         link_text: Link Text
-#         additional_links:
-#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#             icon: fab fa-github
-#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#           - title:  Github page for project (eg. sproogen/modern-resume-theme)
-#             icon: fab fa-github
-#             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-#         quote: >
-#           Short overview of the project (optional)
-#         description: | # this will include new lines to allow paragraphs
-#           Description about the work on/with the project
-#   - title: Experience
-#     layout: list
-#     content:
-#       - layout: right
-#         title: Company name
-#         sub_title: Job title
-#         caption: Date Range (eg. November 2016 - present)
-#         link: Link to company (optional)
-#         quote: >
-#           Short description of the company (optional)
-#         description: | # this will include new lines to allow paragraphs
-#           Description of role
-#   - title: Education
-#     layout: list
-#     content:
-#       - layout: top-right
-#         title: Institution name
-#         sub_title: Qualifications (eg. BA Performing Arts)
-#         caption: Date Range (eg. 2016 - 2019)
-#         quote: >
-#           Short institution or course description (optional)
-#         description: | # this will include new lines to allow paragraphs
-#           Description of qualification
-#   - title: A Little More About Me
-#     layout: text
-#     content: | # this will include new lines to allow paragraphs
-#       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      - layout: left
+        title: Virail
+        sub_title: Backend Developer / SysOp /Data ETL & Consistency
+        caption: '[July 2016] – [September 2021]<br><i class="fa fa-map-marker"></i> Milano / Berlin'
+        link: https://www.virail.com
+        quote: >
+          Consistent data gathering & extraction
+        description: |
+          Generic backend developer fixing & adding new futures to a travel aggregator website. I was the person in charge with adding and providing the backbone data of this project using various methods (proxies, VPNs, etc) to match each of the partners needs.
 
-#       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+          The list of used & known technologies:
 
-# Footer
+          - Operating systems: MacOS / *nix
+          - Databases: PostgreSQL / MySQL / Mongo / Redis
+          - PHP frameworks: Phalcon / Laravel / Codeigniter / CakePHP (but in the end they’re all almost the same)
+          - Python frameworks: Scrapy / HomeAssistant / many others ( + pyenv / virtualenv)
+          - Scripting languages: Bash / Applescript
+          - Networking: vpns setup (OpenVPN / L2TP / Wireguard) / nginx / apache2 / haproxy / polipo / squid
+          - Various other *nix related environment tools, containerization, sysadmin monitor & networking etc
+          - Bonus: I embrace regex as a solution in developing / scripting problems
+
+      - layout: left
+        title: Freelancer
+        sub_title: UpWork
+        caption: '[June 2014] – [June 2016]<br><i class="fa fa-map-marker"></i> Bucharest'
+        # link:
+        quote: Freelancing
+        description: |
+          Slowly kickstarting the work on the soon-to-be current job @Virail (as the project was quite small back then) + on the side using the current UpWork platform to take jobs 90% based on scraping data using Scrapy python framework (additionally building quick frontends too visualize this data Bootstrap/Laravel/etc the usual tools)
+
+      - layout: left
+        title: AlphaFounders
+        sub_title: Backend PHP Developer & Frontend
+        caption: '[November 2013] – [May 2014]<br><i class="fa fa-map-marker"></i> Bangkok'
+        link: https://rabbitcare.com/
+        # quote:
+        description: |
+          PHP backend developer (+frontend at times) developing a custom CRM/Sales system for aggregated car insurance policies with a working call center on-site & supervising deployments on an AWS cloud infrastructure (called askhanuman.co.th back then now it migrated to https://rabbitcare.com/)
+
+      - layout: left
+        title: TheWorkshop
+        sub_title: PHP Developer & Server management
+        caption: '[August 2011] – [October 2013]<br><i class="fa fa-map-marker"></i> Bucharest'
+        # link:
+        quote: Bespoke websites and services
+        description: |
+          Developing websites (server management & configuration), using the requests and technologies provided by the client. (e.g. small presentation sites, adding new features to old websites, themes/plugins for wordpress, custom CRMs etc)
+
+      - layout: left
+        title: DOMAIN MANAGEMENT
+        sub_title: SEO Integration & Development
+        caption: '[November 2010] – [August 2011]<br><i class="fa fa-map-marker"></i> Bucharest'
+        # link:
+        # quote:
+        description: |
+          Developing, customizing and maintaining websites: code, content, SEO integration, SEO marketing.
+
+      - layout: left
+        title: CONNSYS
+        sub_title: IT Helpdesk & Maintenance
+        caption: '[February 2010] – [October 2010]<br><i class="fa fa-map-marker"></i> Bucharest'
+        link: https://www.connsys.ro/
+        quote: >
+          IT & Security externalization services
+        description: |
+          Maintaining a proper software/hardware work on desktop units, internal network, printers, phone system, administrating the servers & backup.
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-middle
+        title: Highschool
+        sub_title: Mathematics & Informatics (National College "Matei Basarab", Bucharest)
+        caption: 2003 – 2007
+        # quote:
+        # description:
+
+      - layout: top-middle
+        title: Bachelor
+        sub_title: Informatics and Mathematics (Bucharest University Informatics and Mathematics)
+        caption: 2007 – 2010
+        # quote:
+        # description:
+
+      - layout: top-middle
+        title: Masters
+        sub_title: Mathematics (Bucharest University Informatics and Mathematics)
+        caption: 2010 – 2013
+        # quote:
+        # description:
+
+  - title: A Little More About Me & Hobbies
+    layout: text
+    content: |
+      - Languages: **Romanian** (mother language), **English** (very good), **Italian** (conversation level,
+      writing has room for improvement), **French** (1-way conversation mostly, can read / listen),
+      **Spanish** (can read / listen). bonus: Thai (I can count & say *Hi!*)
+
+      - Huge fan of any outdoor sports.
+
+      - I have the knowledge / experience to fix almost anything (be it electronic devices or simple
+      things like bicycles) and also develop personal projects.
+
+      - … and from time to time I do some gray-hat hacking if the weather keeps me inside.
+
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: " "
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
 remote_theme: sproogen/modern-resume-theme
 
 sass:
@@ -125,16 +162,3 @@ sass:
 
 plugins:
  - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
