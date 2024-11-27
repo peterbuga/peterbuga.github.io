@@ -1,2 +1,3 @@
-# peterbuga.github.io
-Description website
+# Petrișor Buga
+
+Developer and FOSS enthusiast

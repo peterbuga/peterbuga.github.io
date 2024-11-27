@@ -21,6 +21,10 @@ about_profile_image: images/profile.jpg
 about_content: |
   A general positive person, always up for new challenges. Looking forward for an exciting place to work with an engaged team that shares the same goals and vibe and brings new ideas to life.
 
+  I have an open interest to find and help however I can on various FOSS projects.
+
+  MacOS <i class="fa fa-heart"></i>
+
 content:
   - title: Experience
     layout: list
@@ -83,7 +87,7 @@ content:
         link: https://rabbitcare.com/
         # quote:
         description: |
-          PHP backend developer (+frontend at times) developing a custom CRM/Sales system for aggregated car insurance policies with a working call center on-site & supervising deployments on an AWS cloud infrastructure (called askhanuman.co.th back then now it migrated to https://rabbitcare.com/)
+          PHP backend developer (+frontend at times) developing a custom CRM/Sales system for aggregated car insurance policies with a working call center on-site & supervising deployments on an AWS cloud infrastructure (called *askhanuman.co.th* back then now it migrated to *rabbitcare.com*)
 
       - layout: left
         title: TheWorkshop
@@ -152,7 +156,7 @@ content:
       - … and from time to time I do some gray-hat hacking if the weather keeps me inside.
 
 footer_show_references: true
-references_title: " "
+references_title: powered by <a href="https://github.com/sproogen/modern-resume-theme" target="_blank">sproogen</a>
 
 remote_theme: sproogen/modern-resume-theme
 
